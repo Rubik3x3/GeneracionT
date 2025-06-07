@@ -1,0 +1,93 @@
+/* Fuente general y estilos base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.Imperio {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Rebeldes {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#DarthVader {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #ff4c4c;
+    text-shadow: 1px 1px 5px black;
+}
+
+#Luke {
+    font-style: italic;
+    color: #a0dfff;
+}
+
+.Soldados {
+    border: 3px dashed #ccc;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #222;
+    border-radius: 6px;
+}
+
+.apoyo {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.Naves {
+    text-transform: uppercase;
+    color: #ffcc00;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Droides img {
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    max-width: 90%;
+    height: auto;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #fff;
+    margin: 40px 0;
+}
